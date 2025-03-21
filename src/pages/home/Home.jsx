@@ -3,6 +3,7 @@ import Layout from '../../components/layout/Layout'
 import HeroSection from '../../components/herosection/HeroSection'
 import Filter from '../../components/filter/Filter'
 import ProductCard from '../../components/productcard/ProductCard'
+import Track from '../../../track/Track'
 
 const Home = () => {
 
@@ -11,6 +12,7 @@ const Home = () => {
             <HeroSection/>
             <Filter/>
             <ProductCard/>
+            <Track/>
         </Layout>
 
     )
