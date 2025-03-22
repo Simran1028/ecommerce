@@ -6,6 +6,8 @@ import Order from './pages/order/Order'
 import NoPage from './pages/nopage/NoPage'
 import Cart from './pages/cart/Cart'
 import MyState from './context/data/myState'
+import Login from './pages/registration/Login'
+import SignUp from './pages/registration/SignUp'
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route path='/admin' element={<Dashboard />} />
           <Route path='/order' element={<Order />} />
           <Route path='/cart' element={<Cart />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<SignUp />} />
           <Route path='/*' element={<NoPage />} />
         </Routes>
       </BrowserRouter>
