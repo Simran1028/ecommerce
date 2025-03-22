@@ -8,6 +8,7 @@ import Cart from './pages/cart/Cart'
 import MyState from './context/data/myState'
 import Login from './pages/registration/Login'
 import SignUp from './pages/registration/SignUp'
+import ProductInfo from './pages/productinfo/ProductInfo'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/cart' element={<Cart />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<SignUp />} />
+          <Route path='/product/:id' element={<ProductInfo />} />
           <Route path='/*' element={<NoPage />} />
         </Routes>
       </BrowserRouter>
